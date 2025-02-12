@@ -1,3 +1,3 @@
 Files - 
 	Python learning
-	GIT Learning
+	GIT & GIT Hub Learning
