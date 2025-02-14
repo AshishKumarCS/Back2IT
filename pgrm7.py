@@ -11,7 +11,7 @@ def checkGreater(a,b):
 
 def checkEven(a=24, b=8):	#Default Value passed 
     print (f"For values {a} & {b}: ", end="")
-    print("Both are Even" if a%2==0 and b%2 ==0 else "Either one or both are Odd")
+    print("Both are Even" if a%2==0 and b%2 ==0 else "Either one or both are    Odd")
 	
 def mandatoryArgs(a,b=10):
     print("Here a is mandatory parameter as it has no default value.\nHowever, we can skip b as it has default value 10")
