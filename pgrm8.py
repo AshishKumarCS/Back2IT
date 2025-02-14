@@ -1,4 +1,4 @@
-#This is for Arbitary parameter in a function
+#This is for Arbitary parameter in a function and dict method get()
 
 def arbParam1(*numbers):		#This will make a tuple named numbers
 	print(type(numbers),"\n",sum(numbers))
@@ -14,4 +14,4 @@ arbParam1(5,10,15,20,25)
 arbParam2(fn="Ashish",ln="Kumar")
 arbParam2(fn="Ashish",mn="Sonuwaiya", ln="Kumar")
 arbParam2(fn="Ashish")
-arbParam2()
+arbParam2()  
