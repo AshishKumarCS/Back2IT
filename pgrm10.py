@@ -35,4 +35,20 @@ for i in range(4):  # i goes from 0 to 3
     for row in matrix:  # Go through each row in the original matrix
         new_row.append(row[i])  # Take the i-th element from the row
     transposed.append(new_row)  # Add this new "row" (column) to transposed
-print(*transposed, sep='\n')
+    print(transposed[i])
+    
+    
+    
+print("\n\nDelete by del list_name[:] ")
+
+a = [-1, 1, 66.25, 333, 333, 1234.5]
+del a[2]
+print(a)
+
+[1, 66.25, 333, 333, 1234.5]
+del a[2:4]
+print(a)
+
+[1, 66.25, 1234.5]
+del a[:]
+print(a)
