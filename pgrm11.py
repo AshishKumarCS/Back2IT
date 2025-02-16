@@ -19,9 +19,9 @@ print(tup2)
 #tup2[1]=3   #Error
 
 #changes in tuple is not possible so convert it to list and do the changes and convert it back to tuple
-list1 = list(tup2)
+list1 = list(tup2)  #contructor of list to create a list
 list1.append(10)
 list1[1]=100
 list1.pop(3)
-tup2 = tuple(list1)
+tup2 = tuple(list1) #contructor of tuple to create a tuple
 print(tup2)
