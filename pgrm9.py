@@ -67,7 +67,9 @@ italy_places.reverse()
 print(  italy_places)
 
 print("Pop".center(20,"-"))
-# list.pop() ==> removes the last item of the list and returns the last item in the list. It raises an IndexError if the list is empty or the index is outside range.
+# list.pop(index_optional) ==> removes the last item/index specified of the list and returns the last item in the list. It raises an IndexError if the list is empty or the index is outside range.
+fruits.pop(2)
+print(fruits)
 fruits.pop()
 print(fruits)
 
