@@ -42,13 +42,13 @@ for i in range(4):  # i goes from 0 to 3
 print("\n\nDelete by del list_name[:] ")
 
 a = [-1, 1, 66.25, 333, 333, 1234.5]
-del a[2]
+print("List", a)
+del a[1]
 print(a)
 
-[1, 66.25, 333, 333, 1234.5]
+
 del a[2:4]
 print(a)
 
-[1, 66.25, 1234.5]
 del a[:]
 print(a)
