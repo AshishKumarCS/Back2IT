@@ -31,7 +31,7 @@ print(f"Hello World! I am {name} and I am a {lang} coder.") #just passed in the 
 '''Its more powerful if we use it with floats, this can limit the no of decimal values as: .2f --> seems similar to C prgming'''
 
 
-marks = 8.1151225
+marks = 8.115122765
 print(f"He has got {marks: .3f} in IELTS")
 
 '''What if we want to show this f-string works?? We want to print the whole thing as it is. Without replacing the values of {} with the variable passed. May be to let the new coder know how the whole f-string works'''
