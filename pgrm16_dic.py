@@ -105,3 +105,7 @@ questions = ['name', 'quest', 'favorite color']
 answers = ['lancelot', 'the holy grail', 'blue']
 for k, v in zip(questions, answers):    #zipping and extracting at the same time
     print(f"What is you {k}. Answer is: {v}")
+    
+
+for i in sorted(questions):
+    print(i)
