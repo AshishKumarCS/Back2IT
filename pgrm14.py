@@ -34,5 +34,5 @@ def fibonacci_iterative(n):
     return b
 
 # Example usage
-n = 1000
+n = 10000
 print(f"Fibonacci number at position {n}: {fibonacci_iterative(n)}")
