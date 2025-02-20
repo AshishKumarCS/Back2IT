@@ -101,3 +101,6 @@ print(f"\nx set is : {x}")
 print(f"y set is : {y}")
 x.update(y)
 print(f"After x.update(y): x is {x}")
+
+#pop()
+print("x.pop() =  ",x.pop(),"<-- Evertime this value will be different as set doesn't maintain order")
